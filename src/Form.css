@@ -11,6 +11,8 @@
 }
 
 .form-control {
+  border: 2px solid;
+  height: 30px;
   border-radius: 5px;
   width: 400px;
 }
