@@ -33,8 +33,11 @@
 }
 .btn {
   align-items: center;
-  background-color: black;
+  background-color: rgb(4, 104, 235);
   color: white;
+  border: none;
+  border-radius: 5px;
+  padding: 5px;
 }
 .center {
   display: flex;
