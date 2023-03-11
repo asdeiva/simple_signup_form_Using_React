@@ -1,0 +1,41 @@
+
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+.form-group {
+    margin-bottom: 1rem;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .form-control {
+    border-radius: 5px;
+    width: 400px;
+  }
+  
+  .form-control.is-valid {
+    border-color: green;
+  }
+  
+  .form-control.is-invalid {
+    border-color: red;
+  }
+  
+  .invalid-feedback {
+    color: red;
+    margin-top: 0.25rem;
+    font-size: 80%;
+  }
+  .btn{
+    align-items: center;
+    background-color: black;
+    color: white;
+  }
+  .center{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
